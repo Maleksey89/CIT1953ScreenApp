@@ -1,0 +1,16 @@
+﻿<Page x:Class="_3ScreenApp.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:_3ScreenApp"
+      mc:Ignorable="d" 
+      d:DesignHeight="411.011" d:DesignWidth="800"
+      Title="Page1">
+
+    <Grid>
+        <Button x:Name="nextPage" Content="Next Page" HorizontalAlignment="Left" Height="38" Margin="515,324,0,0" VerticalAlignment="Top" Width="88" Click="Button_Click"/>
+        <Image x:Name="Page1Img" HorizontalAlignment="Left" Height="211" Margin="215,43,0,0" VerticalAlignment="Top" Width="344" Source="/kisspng-semi-trailer-truck-car-truck-driver-semi-truck-icon-sleep-with-a-trucker-yard-sign-5d29f6472b8c50.1691904015630311111784 (1).png"></Image>
+
+    </Grid>
+</Page>
